@@ -18,7 +18,12 @@ public class QueryProcessor {
         }
 
         if (query.toLowerCase().contains("watashi")) {
-            return "Wa-ta-shi(わたし) means \"I\" in Japanese, and the polite form is wa-ta-ku-shi(わたくし)";
+            return "Wa-ta-shi(わたし) means \"I\" in Japanese, and the polite form is wa-ta-ku-shi(わたくし).";
+        }
+
+        if (query.toLowerCase().contains("sumimasen")) {
+            return "Su-mi-ma-sen(すみません) means \"sorry\" in Japanese. \n" +
+                    "You can use it at any time when you say \"sorry\" in English!";
         }
         return "";
     }
