@@ -25,6 +25,10 @@ public class QueryProcessor {
             return "Su-mi-ma-sen(すみません) means \"sorry\" in Japanese. \n" +
                     "You can use it at any time when you say \"sorry\" in English!";
         }
+
+        if (query.toLowerCase().contains("nihon")) {
+            return "Ni-hon(にほん) is how you say \"Japan\" in Japanese!";
+        }
         return "";
     }
 }
