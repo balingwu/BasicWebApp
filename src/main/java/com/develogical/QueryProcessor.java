@@ -27,7 +27,7 @@ public class QueryProcessor {
         }
 
         if (query.toLowerCase().contains("nihon")) {
-            return "Ni-hon(にほん) is how you say \"Japan\" in Japanese!";
+            return "Ni-hon(にほん, 日本) is how you say \"Japan\" in Japanese!";
         }
         return "";
     }
