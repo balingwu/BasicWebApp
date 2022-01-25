@@ -16,6 +16,10 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("bakayarou")) {
             return "Ba-ka-ya-rou(馬鹿野郎) is like the f**k word in Japanese";
         }
+
+        if (query.toLowerCase().contains("watashi")) {
+            return "Wa-ta-shi(わたし) means \"I\" in Japanese, and the polite form is wa-ta-ku-shi(わたくし)";
+        }
         return "";
     }
 }
